@@ -1,53 +1,43 @@
 {
-  "name": "bitcoind-rpc",
-  "description": "Bitcoin Client Library to connect to Bitcoin Core via RPC",
-  "version": "0.7.0",
-  "author": {
-    "name": "Stephen Pair",
-    "email": "stephen@bitpay.com"
-  },
+  "name": "@energicryptocurrency/energid-rpc",
+  "description": "Energi Client Library to connect to Energi Core via RPC",
+  "version": "0.1.0",
+  "author": "Stephen Pair <stephen@bitpay.com>",
   "contributors": [
-    {
-      "name": "Jeff Garzik",
-      "email": "jgarzik@bitpay.com"
-    },
-    {
-      "name": "Manuel Araoz",
-      "email": "manuelaraoz@gmail.com"
-    },
-    {
-      "name": "Matias Alejo Garcia",
-      "email": "ematiu@gmail.com"
-    },
-    {
-      "name": "Braydon Fuller",
-      "email": "braydon@bitpay.com"
-    }
+    "Jeff Garzik <jgarzik@bitpay.com>",
+    "Manuel Araoz <manuelaraoz@gmail.com>",
+    "Matias Alejo Garcia <ematiu@gmail.com>",
+    "Braydon Fuller <braydon@bitpay.com>",
+    "Ryan Lucchese <ryan@energi.team>"
   ],
   "keywords": [
-    "bitcoin",
+    "energi",
     "rpc"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcoind-rpc"
+    "url": "git+https://github.com/energicryptocurrency/energid-rpc.git"
   },
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha test -R spec",
-    "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- --recursive"
+    "test": "mocha test -R spec",
+    "coverage": "istanbul cover node_modules/.bin/_mocha -- --recursive"
   },
   "devDependencies": {
-    "async": "^0.9.0",
+    "async": "^0.9.2",
     "chai": "^1.10.0",
-    "coveralls": "^2.11.2",
-    "istanbul": "^0.3.5",
-    "mocha": "^2.1.0",
-    "sinon": "^1.12.2"
+    "coveralls": "^2.13.3",
+    "istanbul": "^0.3.22",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.7"
   },
   "bugs": {
-    "url": "https://github.com/bitpay/bitcoind-rpc/issues"
+    "url": "https://github.com/energicryptocurrency/energid-rpc/issues"
   },
-  "homepage": "https://github.com/bitpay/bitcoind-rpc"
+  "homepage": "https://github.com/energicryptocurrency/energid-rpc",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
 }
