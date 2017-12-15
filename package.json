@@ -21,16 +21,16 @@
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha test -R spec",
-    "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- --recursive"
+    "test": "mocha test -R spec",
+    "coverage": "istanbul cover node_modules/.bin/_mocha -- --recursive"
   },
   "devDependencies": {
-    "async": "^0.9.0",
+    "async": "^0.9.2",
     "chai": "^1.10.0",
-    "coveralls": "^2.11.2",
-    "istanbul": "^0.3.5",
-    "mocha": "^2.1.0",
-    "sinon": "^1.12.2"
+    "coveralls": "^2.13.3",
+    "istanbul": "^0.3.22",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.7"
   },
   "bugs": {
     "url": "https://github.com/energicryptocurrency/energid-rpc/issues"
