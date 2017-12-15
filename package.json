@@ -1,7 +1,7 @@
 {
-  "name": "bitcoind-rpc",
-  "description": "Bitcoin Client Library to connect to Bitcoin Core via RPC",
-  "version": "0.7.0",
+  "name": "energid-rpc",
+  "description": "Energi Client Library to connect to Energi Core via RPC",
+  "version": "0.1.0",
   "author": {
     "name": "Stephen Pair",
     "email": "stephen@bitpay.com"
@@ -22,15 +22,19 @@
     {
       "name": "Braydon Fuller",
       "email": "braydon@bitpay.com"
+    },
+    {
+      "name": "Ryan Lucchese",
+      "email": "ryan@energi.team"
     }
   ],
   "keywords": [
-    "bitcoin",
+    "energi",
     "rpc"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcoind-rpc"
+    "url": "https://github.com/energicryptocurrency/energid-rpc"
   },
   "license": "MIT",
   "main": "lib/index.js",
@@ -47,7 +51,7 @@
     "sinon": "^1.12.2"
   },
   "bugs": {
-    "url": "https://github.com/bitpay/bitcoind-rpc/issues"
+    "url": "https://github.com/energicryptocurrency/energid-rpc/issues"
   },
-  "homepage": "https://github.com/bitpay/bitcoind-rpc"
+  "homepage": "https://github.com/energicryptocurrency/energid-rpc"
 }
