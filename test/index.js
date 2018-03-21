@@ -167,7 +167,7 @@ describe('RpcClient', function() {
       user: 'user',
       pass: 'pass',
       host: 'localhost',
-      port: 8332,
+      port: 29796,
       rejectUnauthorized: true,
       disableAgent: false
     });
